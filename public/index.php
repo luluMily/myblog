@@ -39,8 +39,13 @@ $app = require_once __DIR__.'/../bootstrap/app.php';
 | Run The Application
 |--------------------------------------------------------------------------
 |
+<<<<<<< HEAD
 | Once we have the application, we can handle the incoming request
 | through the kernel, and send the associated response back to
+=======
+| Once we have the application, we can simply call the run method,
+| which will execute the request and send the response back to
+>>>>>>> cdd12dff195457bd30766f6c16d0cb8a174686df
 | the client's browser allowing them to enjoy the creative
 | and wonderful application we have prepared for them.
 |
